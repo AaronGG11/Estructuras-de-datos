@@ -1,0 +1,37 @@
+// colas circulares 
+// proceso -> 
+
+
+Especificacion de Cola circular
+	Signatura 
+
+	nuevac: -> circular;
+	formarc: circular, Elem -> Circular;
+	esNuevac: circuilar -> Boolean;
+	primeroc: circular -> Elem;
+	desformarc: circular -> circular;
+	rotar: circular -> circular
+
+	Axiomas: Circular c, Elem  e;
+	c1: esNueva(nueva()) = TRUE;
+	c2: esNueva(formac(c,e)) = FALSE;
+	c3: primeroc(nueva()) = ERROR;
+	c4: primero(formar(c,e)) = 
+		si es vacia(c)
+			return e;
+		si no es vacia
+			return primero(c);
+	c5: primero(nueva()) = ERROR
+	c6: desformar(formar(c,e)) == 
+		si es nueva(formar(c,e))
+			return c
+		si no es nueva
+			return formar(desformar(c),e);
+
+
+	Rotar(nueva()) = error;
+	Rotar(formarc(c,e)) = 
+		Si es vacia(c)
+			return formarc(c,e);
+		si no 
+			return formarc(formarc(desformarc(c),e),primero(c));
