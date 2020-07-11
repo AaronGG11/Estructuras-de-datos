@@ -1,0 +1,37 @@
+
+Especificacion Arbol binario 
+
+vacio: -> ArBin;
+consA: Elem, ArBin, ArBin -> ArBin;
+esVacio: ArBin -> Boolean;
+raiz: ArBin -> Elem;
+izq: ArBin -> ArBin;
+der: ArBin -> ArBin;
+
+Axiomas: 
+Aplicar observadoras y desdobladoras a las constructoras
+
+Elem r, ArBin i, ArBin d
+
+	b1: esVacio(vacio()) = TRUE;
+	b2: esVacio(consA(r,id)) = FALSE;
+	b3: raiz(vacio()) = ERROR;
+	b4: raiz(consA(r,i,d)) = r;
+	b5: izq(vacio()) = ERROR;
+	b6: izq(consA(r,i,d)) = i;
+	b7: der(vacio()) = ERROR;
+	b8: der(cons(r,i,z)) = d
+
+/* definir una funcuon que reciba un arbol 
+binario y devuelva el nuemro de elemntos que contenga */
+
+int numElem(a){
+	if(esVacio(a))
+		return 0;
+	else
+		return 1+ numElem(izq(a)) + numElem(der(a));
+}
+
+
+
+

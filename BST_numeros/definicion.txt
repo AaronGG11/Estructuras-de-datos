@@ -1,0 +1,29 @@
+
+Especificacion Diccionario de busqueda binaria
+
+Importar todo de ArBin
+Bloquear al usuario 
+
+insOrd: Elem, DicBin -> DicBin
+
+Axiomas: Elem e, DicBin a
+
+	db1: esVacio(insOrd(e,a)) = falso
+	db2: raiz(insOrd(e,a)) = e;
+	db3: izq(insOrd(e,a)) = 
+		si(esVacio(a))
+			return vacio();
+		si no
+			si es menor(e,raiz(a))
+				return insOrd(e,izq(a))
+			si no 
+				return izq(a)
+
+	db4: der(insOrd(e,a))
+	si (esVacio(a))
+		return vacio();
+	si no 
+		si esmenor(e,raiz(a))	
+			return der(a)
+		si no
+			return insOrd(e,der(a))

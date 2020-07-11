@@ -1,0 +1,49 @@
+
+La raiz tiene >= que la raiz de sus subarboles y tambien sus subarboles, arbol binario completo 
+un heap es binario, crear es distinto, ya no es disponible para el usuario
+un heap se llena de arriba hacia abajo y de izquierda a derecha
+
+*** no hay absoluto 
+*** solo el izquierdo puede ser mas alto
+
+Arbol completo 
+	todo arbol vacio es completo, todos los nodos estan ocupados, excepto en el nivel n-1
+
+esCompleto(vacio()) = CIERTO
+esCompleto(consA(raiz,izquierdo,derecho)) 
+	si (altura(izquierdo) - altura(derecho))<=1 && esCompleto(izquierdo) && esCompleto(derecho)
+		return cierto
+	else
+		return falso
+*** en el ultimo nivel todos estan vacios y no falta ningun elemento
+
+esLleno(vacio()) = CIERTO
+esLleno(consA(raiz,izquierdo,derecho))
+	si (altura(izquierdo) == altura(derecho)) && esLLeno(izquierdo) && esLLeno(derecho)
+		return cierto
+	else
+		return falso 
+
+*** todo arbol lleno es completo pero no al revez 
+
+
+
+
+
+
+** completo es cuando no hay espacios intermedios vacios
+** lleno se requiere de un nuevo nivel para insertar
+
+
+
+
+
+
+
+
+
+
+
+
+
+

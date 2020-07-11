@@ -1,0 +1,13 @@
+
+
+// ARBOL AVL -> inicales de inventores
+// Es un BST, con la caracteristica que esta balanceado por altura
+
+// Todo arbol AVL es un BST y tambien una un arbol binario
+
+// factor de balanceo, si es -1 esta ligeramente desvalenaceado en la derecha izq - der
+// - derecho
+// rotar derecha
+
+
+// izq - der
