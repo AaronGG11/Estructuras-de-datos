@@ -1,0 +1,39 @@
+
+Tabla de dispersion
+
+Signatura
+
+Constructoras
+
+tVacia: -> Hash
+tesVacia: Hast -> boolean
+tInsertar: Hast, cardinal, elem -> Hast
+tRecupera: Hast, cardinal -> elem
+testaEn: Hash, cardinal -> boolean
+
+
+Axiomas, predicados
+
+h1: tesVacia(tVacia()) = TRUE
+h2: tesVacia(tInsertar(h,k,e)) = FALSE
+h3: tRecupera(tVacia()) = ERROR
+h4: tRecupera(tInsertar(h,k,e),j)
+	si k == j return e
+	si no return tRecupera(h,k)
+h5: tEstanEn(tVacia(),j) = FALSE
+h6: tEstanEn(tInsertar(h,k,e),j)
+	si k == j return TRUE
+	si no return tEstaen(h,k); // (h,j)
+
+con malloc 
+61mod7
+
+programa que pregunte el numero atomico y devolver toda la informacion de ese elemento de la tabla periodica
+meter en un archivo de tipo texto 
+salir
+agregar
+eliminar
+buscar
+
+
+

@@ -1,0 +1,15 @@
+Elena-Gilbert Nina-Dobrev Humano-Doppelganger-Vampiro-Ancla 29 Bulgaria Viva
+Damon-Salvatore Ian-Somerhalder Humano-Vampiro 39 Estados-Unidos Vivo
+Caroline-Forbes Candice-Accola Humano-Vampiro 31 Estados-Unidos Viva
+Niklaus-Mikelson Josep-Morgan Humano-Vampiro-HombreLobo-Hibrido 37 Reino-Unido Muerto
+Jeremy-Gilbert Steven-McQueen Humano-Cazador 30 Estados-Unidos Vivo
+Bonnie-Bennet Kat-Graham Humano-Bruja-Ancla-Fantasma 29 Suiza Viva
+Matt-Donovan Zach-Roering Humano 33 Estados-Unidos Vivo
+Alaric-Saltzman Matt-Davis Humano-Vampiro-Cazador 40 Estados-Unidos Vivo
+Tyler-LockWood Michael-Trevino Humano-HombreLobo-Hibrido 33 Estados-Unidos Muerto
+Aaron-Whitmore Shaun-Sipos Humano 37 Canada Muerto
+Stefan-Salvatore Paul-Wesley Humano-Doppelganger-Vampiro 36 Estados-Unidos Muerto
+
+
+
+

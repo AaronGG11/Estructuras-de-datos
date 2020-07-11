@@ -1,0 +1,18 @@
+
+Cada elemento de la tabla periodica sera una tupla, por lo que esta tupla
+tendra diversos atributos propios, donde el identificador (id/key) sera unico 
+para cada tupla, este atributo tomara el valor del numero atomico unicamente 
+por esta ocasion. 
+
+	Diccionario de datos
+	Nombre				Tipo
+
+	Numero atomico 		Identificador
+	Nombre				
+	Simbolo
+	Periodo 
+	Grupo
+	Masa atomica (uma)
+	Tipo 
+
+
