@@ -1,25 +1,7 @@
 
 
 /*
-//	Para elementos enteros 
-
-typedef int Elem; //Es par eneteros
-
-void ImpElem(Elem e){ 
-	printf("%d ", e);
-}
-
-
-int esMenor(Elem e, Elem f){
-	return e < f;
-}
-
-int sonIguales(Elem e, Elem f){
-	return e == f;
-}
-*/
-
-
+//	Para elementos string 
 
 typedef char*Elem;
 
@@ -33,4 +15,21 @@ int esMenor(Elem x, Elem y){
 
 int sonIguales(Elem x, Elem y){
 	return strcmp(x,y) == 0;
+}
+*/
+
+
+
+typedef int Elem;
+
+void ImpElem(Elem e){
+	printf("%d\n", e);
+}
+
+int esMenor(Elem x, Elem y){
+	return x < y;
+}
+
+int sonIguales(Elem x, Elem y){
+	return x == y;
 }

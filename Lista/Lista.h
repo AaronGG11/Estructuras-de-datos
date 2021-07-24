@@ -147,6 +147,31 @@ int estaEn(Elem e, Lista l){
 }
 
 
+Lista InsInIndex(Elem e, Lista l, int index){
+	// index es valido, es decir index < longitud
+	int logntiud = NumElem(l);
+	int counter = 0;
+	Lista auxiliar = Vacia();
+
+	if(logntiud == 0){
+		return Cons(e, l);
+	} else {
+		while(index != counter){
+			counter += 1;
+			auxiliar = Cons(Cabeza(l), auxiliar);
+			l = Resto(l);
+		}
+
+		auxiliar = Cons(e, auxiliar);
+		auxiliar = InvierteLista(auxiliar);
+	}
+
+	return PegaListas(auxiliar, l);
+}
+
+
+
+
 
 
 
